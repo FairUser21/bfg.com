@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display&display=swap');
+
+
+.vid{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.showText{
+    width:  80%;
+    height: 30%;
+    display: table-row;
+    align-items:center;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white; */
+}
+
+.showText p {
+    width: 100%;
+    height: 100%;
+    /* background-color: #1f160579; */
+    display: flex;
+    justify-content: center;
+    text-shadow: 
+		-0   -2px 0   #000000,
+		 0   -2px 0   #000000,
+		-0    2px 0   #000000,
+		 0    2px 0   #000000,
+		-2px -0   0   #000000,
+		 2px -0   0   #000000,
+		-2px  0   0   #000000,
+		 2px  0   0   #000000,
+		-1px -2px 0   #000000,
+		 1px -2px 0   #000000,
+		-1px  2px 0   #000000,
+		 1px  2px 0   #000000,
+		-2px -1px 0   #000000,
+		 2px -1px 0   #000000,
+		-2px  1px 0   #000000,
+		 2px  1px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000;
+}
+
+
+
+.showText img{
+    width: 80%;
+    height: 80%;
+}
+
+
+

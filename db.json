@@ -1,0 +1,184 @@
+{
+  "books": [
+    {
+      "name": "Хидео Кодзима. Гены гения",
+      "pages": "320",
+      "description": "«Гены гения» — это сборник эссе Кодзимы, посвященных мемам — единицам культурной информации, которые формируют личность точно так же, как биологические гены.",
+      "price": 800,
+      "category": "Геймдев",
+      "image": "https://static-sl.insales.ru/images/products/1/5733/388421221/00116536.jpg",
+      "id": 1
+    },
+    {
+      "name": " Ридли Скотт. Гений визуальных миров.",
+      "pages": "250",
+      "description": "Ридли Скотт - человек великих противоречий. Он учился у Фрэнсиса Бэкона и рисует маслом, чтобы расслабиться. Он предпочитает компанию ученых НАСА или средневековых историков сливкам голливудского общества.",
+      "price": 2500,
+      "category": "Художественная",
+      "image": "https://img1.labirint.ru/rcimg/910b8413e71e4e45411469ee69b99137/960x540/books79/786941/ph_001.jpg?1611476730",
+      "id": 2
+    },
+    {
+      "name": "Кровь, пот и пиксели. Обратная сторона индустрии видеоигр.",
+      "pages": "368",
+      "description": "В данной книге вам расскажут историю создания этих шедевров: пройдите путь от первой задумки до лидеров продаж!",
+      "price": 500,
+      "category": "Геймдев",
+      "image": "https://static-sl.insales.ru/r/7IIK7XukPmk/fit/1000/1000/ce/1/plain/images/products/1/1251/451052771/%C3%83__%C3%83__%C3%83_%C3%82%C2%BA%C3%83__%C3%83_%C3%82%C2%B5%C3%83__%C3%83__-removebg-preview.png@webp",
+      "id": 3
+    },
+    {
+      "name": "Detective Comics 27 - Replic",
+      "pages": "38",
+      "description": "Хотя это не первый выпуск детективных комиксов, этот выпуск считается знаковым, поскольку первое появление Бэтмена.",
+      "price": 1000,
+      "category": "Комикс",
+      "image": "https://tweakmore.com/wp-content/uploads/2018/06/Detective-Comics-A4149-476x674.jpg",
+      "id": 4
+    },
+    {
+      "name": "Action Comics 1 - Replic",
+      "pages": "25",
+      "description": "В нем впервые появляется несколько героев комиксов, в первую очередь Супермена",
+      "price": 800,
+      "category": "Комикс",
+      "image": "http://geekcity.ru/wp-content/uploads/2014/08/action-comics-vol-1-box.jpg",
+      "id": 5
+    },
+    {
+      "name": "DEADPOOL KILLS MARVEL UNIVERSE AGAIN #1",
+      "pages": "40",
+      "description": "DEADPOOL KILLS MARVEL UNIVERSE AGAIN :D",
+      "price": 1300,
+      "category": "Комикс",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71on+sDd5jL.jpg",
+      "id": 6
+    },
+    {
+      "name": "Грокаем Алгоритмы",
+      "pages": "240",
+      "description": "Алгоритмы в илюстрациях",
+      "price": 450,
+      "category": "Программирование",
+      "image": "https://images.wbstatic.net/big/new/5890000/5890117-1.jpg",
+      "id": 7
+    },
+    {
+      "name": "Изучаем Python",
+      "pages": "430",
+      "description": "О языке Пайтон",
+      "price": 600,
+      "category": "Программирование",
+      "image": "https://codernet.ru/media/%D0%98%D0%B7%D1%83%D1%87%D0%B0%D0%B5%D0%BC%20Python.%205-%D0%B5%20%D0%B8%D0%B7%D0%B4.%20%D0%A2%D0%BE%D0%BC%201.%20%D0%9C%D0%B0%D1%80%D0%BA%20%D0%9B%D1%83%D1%82%D1%86/izuchaem_python_5-e_izd_tom_1_mark_lutc_HIySzMr.jpg",
+      "id": 8
+    },
+    {
+      "name": "Язык программирования C# 7 и платформы .NET и .NET Core",
+      "pages": "578",
+      "description": "С#",
+      "price": 950,
+      "category": "Программирование",
+      "image": "https://media.proglib.io/posts/2020/03/18/490af3724ab1355b5275a6f58843f397.jpg",
+      "id": 9
+    },
+    {
+      "name": "Как устроен JavaScript",
+      "pages": "308",
+      "description": "JS",
+      "price": 1300,
+      "category": "Программирование",
+      "image": "https://sun9-46.userapi.com/impf/c858128/v858128839/1fc66/bS87qZTALzA.jpg?size=604x604&quality=96&sign=54f62a5f0ac3f7d9343cea73265669d4&type=album",
+      "id": 10
+    },
+    {
+      "name": "World of Warcraft. Трехмерная карта Азерота",
+      "pages": "9",
+      "description": "вся книга раскладывается и превращается в единую карту Азерота",
+      "price": 5500,
+      "category": "Артбуки",
+      "image": "https://static-sl.insales.ru/r/huBtWukimCI/fit/1000/0/ce/1/plain/images/products/1/2578/453159442/PaE6Z1Q-txE.jpg@webp",
+      "id": 11
+    },
+    {
+      "name": "Исскуство Гвинт",
+      "pages": "248",
+      "description": "«Искусство Гвинт: Ведьмак – карточная игра», в которой собраны потрясающие иллюстрации каждой из карт.",
+      "price": 1500,
+      "category": "Артбуки",
+      "image": "https://static-sl.insales.ru/r/XbowR1rpvMg/fit/1000/0/ce/1/plain/images/products/1/4893/449155869/5fpogyrz-8.jpg@webp",
+      "id": 12
+    },
+    {
+      "name": "Последнее желание",
+      "pages": "320",
+      "description": "Ведьмак — это мастер меча и мэтр волшебства, ведущий непрерывную войну с кровожадными монстрами, которые угрожают покою сказочной страны.",
+      "price": 300,
+      "category": "Художественная",
+      "image": "https://images.wbstatic.net/big/new/3700000/3705371-1.jpg",
+      "id": 13
+    },
+    {
+      "name": "Меч Предназначения",
+      "pages": "384",
+      "description": "Ведьмак — это мастер меча и мэтр волшебства, ведущий непрерывную войну с кровожадными монстрами, которые угрожают покою сказочной страны.",
+      "price": 310,
+      "category": "Художественная",
+      "image": "https://images.wbstatic.net/big/new/4220000/4226383-1.jpg",
+      "id": 14
+    },
+    {
+      "name": "Кровь эльфов",
+      "pages": "320",
+      "description": "Они являют собою картину мира — мира «меча и магии», мира искрометного юмора, не только захватывающего внимание читателя, но и трогающего его душу. Читайте сагу о Цири и Геральте!",
+      "price": 300,
+      "category": "Художественная",
+      "image": "https://images.wbstatic.net/c246x328/new/25960000/25964303-1.jpg",
+      "id": 15
+    },
+    {
+      "name": "Час Презрения",
+      "pages": "352",
+      "description": "Ведьмак — это мастер меча и мэтр волшебства, ведущий непрерывную войну с кровожадными монстрами, которые угрожают покою сказочной страны.",
+      "price": 400,
+      "category": "Художественная",
+      "image": "https://images.wbstatic.net/c246x328/new/2970000/2975479-1.jpg",
+      "id": 16
+    },
+    {
+      "name": "Крещение огнем",
+      "pages": "384",
+      "description": "Ведьмак — это мастер меча и мэтр волшебства, ведущий непрерыв-ную войну с кровожадными монстрами, которые угрожают покою сказочной страны.",
+      "price": 390,
+      "category": "Художественная",
+      "image": "https://images.wbstatic.net/c246x328/new/3640000/3649034-1.jpg",
+      "id": 17
+    },
+    {
+      "name": "Башня Ласточки",
+      "pages": "448",
+      "description": "Книги Сапковского не просто блистательны по литературности фор-мы и глубине содержания. Они являют собою картину мира — мира \"меча и магии\", мира искрометного юмора, не только захватывающего внима-ние читателя, но и трогающего его душу.",
+      "price": 500,
+      "category": "Художественная",
+      "image": "https://images.wbstatic.net/c246x328/new/3980000/3987651-1.jpg",
+      "id": 18
+    },
+    {
+      "name": "Владычица Озера",
+      "pages": "544",
+      "description": "\"Ведьмак\" - это мир на острие меча, ошеломляющее действие, незабываемые ситуации, великолепные боевые сцены.",
+      "price": 550,
+      "category": "Художественная",
+      "image": "https://images.wbstatic.net/c246x328/new/4310000/4310585-1.jpg",
+      "id": 19
+    },
+    {
+      "name": "Клинок, рассекающий демонов",
+      "pages": "2000",
+      "description": "Манга про противостояние демонов и охотников на них",
+      "price": 5000,
+      "category": "Манга",
+      "image": "https://www.pulsar.ua/files/img_products/full_4__6__4__6__4____.jpg",
+      "id": 20
+    }
+  ]
+}

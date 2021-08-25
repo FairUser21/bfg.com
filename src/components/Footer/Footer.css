@@ -1,0 +1,60 @@
+@import url('http://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+
+
+.footer-menu{
+    padding: 3% 0;
+    box-shadow: 0 0px 10px #ccc;
+    background-color: #dc3545;
+    height: auto;
+}
+
+
+.footer-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-menu ul li{
+    display:inline-block;
+}
+.footer-menu ul li a{
+    color:#6E6E6E;
+    margin:0 1em;
+    font-size:1.2rem;
+    text-decoration:none;
+}
+.footer-menu ul li a:hover{
+    color:#EE7B00;
+}
+
+.footer-container img{
+
+
+    width: 50%;
+    height: 0%;
+}
+
+.footer-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.brand {
+    color: white;
+    font-size: 50px;
+}
