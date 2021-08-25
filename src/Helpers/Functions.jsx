@@ -5,3 +5,8 @@ export const calcTotalPrice = (products) => {
     return (ac += cur.subPrice);
   }, 0);
 };
+
+export function getCountProductsInFavs() {
+  let favs = JSON.parse(localStorage.getItem("favs"));
+  return favs ? favs.products.length : 0;
+}

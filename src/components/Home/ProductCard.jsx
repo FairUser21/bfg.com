@@ -57,7 +57,18 @@ const useStyles = makeStyles(() => ({
 
 
 const ProductCard = () => {
-  const { products, getProducts, deleteProduct, editProduct, addProductToCart, cart } = useContext(addProductContext)
+  const { 
+    products, 
+    getProducts, 
+    deleteProduct, 
+    editProduct, 
+    addProductToCart, 
+    cart, 
+    favs, 
+    addProductToFavs,
+    checkProductInFavs, 
+  } = useContext(addProductContext)
+
   const [state, setState] = useState(false)
   const [modalShow, setModalShow] = useState(false);
   const classes = useStyles();
@@ -79,7 +90,9 @@ const ProductCard = () => {
 
   return (
     <>
+      
       {products.map(item => (
+        <NavLink to={`/details/${item.id}`}>
         <Paper elevation={3} className={classes.card}>
           <div className={classes.topSection}>
             <Paper elevation={3} className={classes.imgContainer}>
@@ -103,9 +116,9 @@ const ProductCard = () => {
                       Buy <AttachMoneyIcon />
                     </Button>
                     <IconButton
-                      // color={checkProductInFavs(item.id) ? "secondary" : ""}
-                      // onClick={() => addProductToFavs(item)}
-                      // aria-label='add to favs'
+                      color={checkProductInFavs(item.id) ? "secondary" : ""}
+                      onClick={() => addProductToFavs(item)}
+                      aria-label='add to favs'
                     >
                       <FavoriteIcon />
                     </IconButton>
@@ -129,9 +142,11 @@ const ProductCard = () => {
               ) : (<></>)
             }
           </div>
+          
         </Paper>
-
+        </NavLink>
       ))}
+      
       <PurchaseForm
         show={modalShow}
         onHide={() => setModalShow(false)}

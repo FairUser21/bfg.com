@@ -18,7 +18,8 @@ import ProductContextProvider from './context/ProductContext';
 import Header from './components/Header/Header';
 import Payment from './components/Payment/Payment';
 import Footer from './components/Footer/Footer';
-
+import Favorites from "./components/Cart/Favorites"
+import ProductDetails from "./components/Home/ProductDetails"
 
 const Routes = () => {
     return (
@@ -32,13 +33,14 @@ const Routes = () => {
                         <Route path="/signup" component={Signup} />
                         <Route path="/login" component={Login} />
                         <Route path="/forgot-password" component={ForgotPassword} />
-                        
+                        <Route path="/favorites" component={Favorites} />
                         <Route exact path="/" component={Home} />
                         <Route path="/add" component={AddProductPage}/>
                         <Route path="/edit" component={EditProductPage}/>
                         <Route path="/cart" component={Cart}/>
                         <Route exact path="/catalog" component={ProductList}/>           
                         <Route exact path="/payment" component={Payment} />
+                        <Route exact path="/details/:id" component={ProductDetails} />
                     </Switch>
                     <Footer />
             </ProductContextProvider>

@@ -3,7 +3,7 @@ import React, { createContext, useContext } from 'react';
 import { useReducer } from 'react';
 import { useHistory } from 'react-router-dom';
 import { JSON_API } from '../Helpers/Consts';
-import { calcSubPrice, calcTotalPrice } from '../Helpers/Functions';
+import { calcSubPrice, calcTotalPrice, getCountProductsInFavs } from '../Helpers/Functions';
 
 export const addProductContext = React.createContext();
 
@@ -13,9 +13,12 @@ export const useProducts = () => {
 
 const INIT_STATE = {
   products: [],
+  productDetails: {},
   productToEdit: null,
   cart: [],
-  paginationPages: 1
+  paginationPages: 1,
+  favs: JSON.parse(localStorage.getItem("favs")),
+  favsLength: getCountProductsInFavs()
 
 }
 
@@ -33,6 +36,8 @@ const reducer = (state = INIT_STATE, action) => {
         ...state,
         productToEdit: action.payload
       }
+    case "GET_PRODUCT_DETAILS":
+      return { ...state, productDetails: action.payload };
     case "GET_CART":
       return { ...state, cart: action.payload };
     case "FILTER_PRODUCTS_BY_PRICE":
@@ -66,6 +71,15 @@ const ProductContextProvider = ({ children }) => {
     axios.post(JSON_API, newProduct)
     getProducts()
   }
+
+  const getProductDetails = async (id) => {
+    const { data } = await axios(`${JSON_API}/${id}`);
+    dispatch({
+      type: "GET_PRODUCT_DETAILS",
+      payload: data,
+    });
+  };
+
   const deleteProduct = async (id) => {
     await axios.delete(`${JSON_API}/${id}`)
     getProducts()
@@ -281,7 +295,9 @@ const ProductContextProvider = ({ children }) => {
         productToEdit: state.productToEdit,
         cart: state.cart,
         paginationPages: state.paginationPages,
+        productDetails: state.productDetails,
         getProducts,
+        getProductDetails,
         addProduct,
         editProduct,
         saveProduct,
