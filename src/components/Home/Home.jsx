@@ -1,5 +1,4 @@
 import React from 'react';
-import Showreel from '../Showreel/Showreel';
 import ImageSlider from '../Slider/Slider';
 import './Home.css'
 
@@ -7,7 +6,7 @@ const Home = () => {
 
     return (
         <div>
-            {/* <Showreel /> */}
+            
             <div className="containerList">
                 <div className="section">
                     <div className="content">
@@ -56,7 +55,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* <ImageSlider /> */}
+            <ImageSlider />
         </div>
     );
 };
