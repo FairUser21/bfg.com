@@ -60,7 +60,7 @@ export default function Cart() {
         <Table className={classes.table} aria-label="caption table">
           <TableHead>
             <TableRow>
-              <TableCell>Image</TableCell>
+             
               <TableCell align="right">Brand</TableCell>
               <TableCell align="right">Price</TableCell>
               <TableCell align="right">Count</TableCell>
@@ -72,10 +72,8 @@ export default function Cart() {
             {cart?.products?.length > 0 &&
               cart.products.map((product) => (
                 <TableRow key={product.item.id}>
-                  <TableCell>
-                    <img className={classes.tableCellImg} src={product.item.image} alt={product.item.title} />
-                  </TableCell>
-                  <TableCell align="right">{product.item.brand}</TableCell>
+                  
+                  <TableCell align="right">{product.item.name}</TableCell>
                   <TableCell align="right">{product.item.price}</TableCell>
                   <TableCell align="right">
                     <input

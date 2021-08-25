@@ -189,6 +189,15 @@ const ProductContextProvider = ({ children }) => {
 
 
 
+
+
+
+
+
+
+
+
+
   const getFavs = () => {
     let favs = JSON.parse(localStorage.getItem("favs"));
     if (!favs) {
@@ -261,7 +270,6 @@ const ProductContextProvider = ({ children }) => {
   function deleteFavsProducts(id) {
     let toDelete = JSON.parse(localStorage.getItem("favs"));
     toDelete.products = toDelete.products.filter((elem) => elem.item.id !== id);
-    toDelete.totalPrice = calcTotalPrice(toDelete.products);
     localStorage.setItem("favs", JSON.stringify(toDelete));
     console.log(toDelete);
     getFavs();
@@ -283,6 +291,11 @@ const ProductContextProvider = ({ children }) => {
       };
     }
   }
+
+
+
+
+
 
 
 

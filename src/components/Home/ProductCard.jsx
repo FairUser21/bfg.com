@@ -92,12 +92,15 @@ const ProductCard = () => {
     <>
       
       {products.map(item => (
-        <NavLink to={`/details/${item.id}`}>
+        
         <Paper elevation={3} className={classes.card}>
+         
           <div className={classes.topSection}>
+          <NavLink to={`/details/${item.id}`}>
             <Paper elevation={3} className={classes.imgContainer}>
               <img className={classes.bookImg} src={item.image} alt="" />
             </Paper>
+            </NavLink>
           </div>
           <div className={classes.bottomSection}>
             <p className={classes.cardTitle}>
@@ -144,7 +147,7 @@ const ProductCard = () => {
           </div>
           
         </Paper>
-        </NavLink>
+        
       ))}
       
       <PurchaseForm
