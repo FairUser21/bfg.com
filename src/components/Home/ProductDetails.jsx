@@ -7,14 +7,14 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import ButtonBase from "@material-ui/core/ButtonBase";
-import WbSunnyIcon from "@material-ui/icons/WbSunny";
-import OpacityIcon from "@material-ui/icons/Opacity";
-import LocalFloristIcon from "@material-ui/icons/LocalFlorist";
+import ProductComments from "./ProductComments";
+
+
 
 const useStyles = makeStyles((theme) => ({
   back: {
     width: "100%",
-    height: "100vh",
+    height: "300vh",
 
   },
   root: {
@@ -63,7 +63,7 @@ const ProductDetails = () => {
               <ButtonBase className={classes.image}>
                 <img
                   className={classes.img}
-                  alt='PLANT'
+                  alt='BOOK'
                   src={productDetails.image}
                 />
               </ButtonBase>
@@ -99,6 +99,9 @@ const ProductDetails = () => {
               </Grid>
             </Grid>
           </Grid>
+          <div style={{ marginTop: "35vh" }}>
+            <ProductComments />
+          </div>
         </Paper>
       </div>
     </div>

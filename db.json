@@ -7,7 +7,14 @@
       "price": 800,
       "category": "Геймдев",
       "image": "https://static-sl.insales.ru/images/products/1/5733/388421221/00116536.jpg",
-      "id": 1
+      "id": 1,
+      "comments": [
+        {
+          "email": "admin@admin.com",
+          "commit": "omg, i like it",
+          "date": "8/25/2021, 1:06:31 AM"
+        }
+      ]
     },
     {
       "name": " Ридли Скотт. Гений визуальных миров.",
